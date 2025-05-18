@@ -49,7 +49,7 @@ jobs:
       - name: Install SnowflakeCLI
         uses: snowflakedb/snowflake-cli-action@v1.5
         with:
-          cli-version: "latest"
+          cli-version: "3.5.0"
           default-config-file-path: "config.toml"
 
       # Fetch latest changes from the repository to Snowflake
